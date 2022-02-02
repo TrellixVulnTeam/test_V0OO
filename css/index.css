@@ -836,7 +836,7 @@ tbody tr td {
     text-align: center; }
   /*(SOBRE NOSOTROS)*/
   .main__sobrenosotros {
-    height: 650px;
+    height: 700px;
     /*Tamaños de las fotos*/ }
     .main__sobrenosotros #main__titulo {
       width: 100%;
@@ -1030,7 +1030,7 @@ tbody tr td {
     text-align: center; }
   /*(SOBRE NOSOTROS)*/
   .main__sobrenosotros {
-    height: 450px;
+    height: 500px;
     /*Tamaños de las fotos*/ }
     .main__sobrenosotros #main__titulo {
       width: 100%;
@@ -1225,7 +1225,7 @@ tbody tr td {
     text-align: center; }
   /*(SOBRE NOSOTROS)*/
   .main__sobrenosotros {
-    height: 400px;
+    height: 40vw;
     /*Tamaños de las fotos*/ }
     .main__sobrenosotros #main__titulo {
       width: 100%;
