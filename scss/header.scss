@@ -3,37 +3,37 @@ header{
     text-align: center;
     color: white;
     
-    h1{
-        font-style: italic;
-        font-weight: 5;
-        font-family:'Times New Roman', Times, serif;
+    .header__titulo{
+        font-family: 'Source Serif Pro', serif;
     }
 
-    .logo__header{
+    .header__logo{
         height:150px;
     }
 }
 @media only screen and ( max-width: 600px) {    
     header{
-        height:150px;
+        height:200px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 40% 40%;
         grid-template-areas: "logo"
-                             "texto";
+                             "titulo";
         align-content: center;
 
-        &h1{
-            padding-top: 10px;
-            font-size: 35px;
-            grid-area: texto;
-            justify-self: center;
-        }
-        .logo__header{
+        .header__logo{
             height:100px;
             justify-self: center;
             align-self: center;
+            grid-area: logo;
         }
+        .header__titulo{
+            padding-top: 10px;
+            font-size: 35px;
+            grid-area: titulo;
+            justify-self: center;
+        }
+
     }
 
 }
@@ -45,20 +45,21 @@ header{
         grid-template-columns: 1fr;
         grid-template-rows: 40% 40%;
         grid-template-areas: "logo"
-                             "texto";
+                             "titulo";
         align-content: center;
 
-        &h1{
+        .header__titulo{
             padding-top: 10px;
-            font-size: 40px;
-            grid-area: texto;
+            font-size: 35px;
+            grid-area: titulo;
             justify-self: center;
         }
 
-        .logo__header{
+        .header__logo{
             height:100px;
             justify-self: center;
             align-self: center;
+            grid-area: logo;
         }
     }
 
@@ -71,18 +72,19 @@ header{
         grid-template-columns: 1fr;
         grid-template-rows: 40% 40%;
         grid-template-areas: "logo"
-                             "texto";
+                             "titulo";
         align-content: center;
-        & h1{
+        .header__titulo{
             padding-top: 10px;
             font-size: 45px;
-            grid-area: texto;
+            grid-area: titulo;
             justify-self: center;
         }
-        .logo__header{
+        .header__logo{
             height:110px;
             justify-self: center;
             align-self: center;
+            grid-area: logo;
         }
     }
 }    
@@ -94,19 +96,20 @@ header{
         grid-template-columns: 1fr;
         grid-template-rows: 40% 40%;
         grid-template-areas: "logo"
-                             "texto";
+                             "titulo";
         align-content: center;
 
-        &h1{
+        .header__titulo{
             padding-top: 15px;
             font-size: 50px;
-            grid-area: texto;
+            grid-area: titulo;
             justify-self: center;
         }
-        .logo__header{
+        .header__logo{
             height:110px;
             justify-self: center;
             align-self: center;
+            grid-area: logo;
         }
     }
 }   
@@ -118,18 +121,19 @@ header{
         grid-template-columns: 1fr;
         grid-template-rows: 40% 40%;
         grid-template-areas: "logo"
-                             "texto";
+                             "titulo";
         align-content: center;
-        &h1{
+        .header__titulo{
             padding-top: 20px;
             font-size: 50px;
-            grid-area: texto;
+            grid-area: titulo;
             justify-self: center;
         }
-        .logo__header{
+        .header__logo{
             height:130px;
             justify-self: center;
             align-self: center;
+            grid-area: logo;
         }
     }
       
